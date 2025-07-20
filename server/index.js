@@ -37,6 +37,10 @@ app.use("/api/auth", authRoutes);
 app.use("/api/recipes", recipeRoutes);
 app.use("/api/recipes", reviewRoutes);
 
+app.get("/", (req , res)=>{
+res.json("Hello running server");
+})
+
 
 
 // Connect DB & Start Server
