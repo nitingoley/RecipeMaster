@@ -12,7 +12,7 @@ dotenv.config();
 
 const app = express();
 app.use(cors({
-  origin: "http://localhost:5173", // Adjust this to your client URL
+  origin: "https://recipe-master-flame.vercel.app",  
   credentials: true,  
 }));
 app.use(express.json());
