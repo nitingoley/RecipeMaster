@@ -13,8 +13,7 @@ dotenv.config();
 const app = express();
 
 const allowedOrigins = [
-  "http://localhost:5173",
-  "https://recipe-master-flame.vercel.app",
+"*"
 ];
 
 app.use(
